@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'SwiftNIOExtras'
-  s.version = 'version'
+  s.version = '1.17.0'
   s.license = { :type => 'Apache 2.0', :file => 'LICENSE.txt' }
   s.summary = 'Useful code around SwiftNIO.'
   s.homepage = 'https://github.com/apple/swift-nio-extras'
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '10.0'
   s.watchos.deployment_target = '6.0'
 
-  s.dependency 'SwiftNIO', '>= 1.17.0', '< 2'
+  s.dependency 'SwiftNIO', '2.48.0'
 
   s.source_files = 'Sources/NIOExtras/**/*.swift'
 end
